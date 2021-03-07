@@ -17,7 +17,7 @@ class Cliente:
     def surname(self):
         return self.__surname
 
-    @id.setterW
+    @id.setter
     def id(self, val):
         self.__id = val
 
